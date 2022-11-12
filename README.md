@@ -1,5 +1,7 @@
 # Versi Python 3.10
-> Gunakan python interpreter 3.10
+> Gunakan python interpreter 3.10||
+> Ubah pengaturan python interpreter pada ***File/Settings(Ctrl+Alt+S)/Project:Face Recognition/Python Interpreter/
+> Add Interpreter/Add Local Interpreter/(pilih versi Python 3.10)***
 # Install Package
 ### pip install --upgrade pip
 > Upgrade terlebih dahulu pip

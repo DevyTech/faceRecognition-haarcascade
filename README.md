@@ -13,6 +13,7 @@
 > Install Pillow untuk penggunaan properti Image
 # Run
 ### run ***generateDataset_trainingData.py***
-> Untuk Merekam data wajah kemudian melakukan training data wajah
+> Masukan ID dan Nama setelah itu data wajah akan direkam dan disimpan ke dalam DataSet 
+> setelah itu akan melakukan training data wajah
 ### run ***faceRecognition.py***
 > Untuk Mendekteksi Kecocokan Wajah yang sudah direkam ke dalam DataSet

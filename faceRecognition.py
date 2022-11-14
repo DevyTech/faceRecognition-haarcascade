@@ -25,12 +25,8 @@ while True:
         # Membuat Bingkai
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 2)
         id, conf = recognizer.predict(konversiWarna[y:y+h, x:x+w])
-        if id==1:
-            name = 'Devaldy'
-        else:
-            name = 'Unknown'
         confText = "{0}%".format(round(100 - conf)) # Jika nilai confidence dibawah 50% maka kecocokan Wajah bernilai True
-        cv2.putText(frame, str(name), (x + 6, y - 6), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 0),2) # Memasukan Text Nama
+        cv2.putText(frame, 'Face ID'+str(id), (x + 6, y - 6), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 0),2) # Memasukan Text Nama
         cv2.putText(frame, str(confText), (x + 6, y + h - 7), cv2.FONT_HERSHEY_DUPLEX, 1, (0, 255, 0), 2) # Memasukan Text confidence
     cv2.imshow("Face Recognation", frame)
     key = cv2.waitKey(1)

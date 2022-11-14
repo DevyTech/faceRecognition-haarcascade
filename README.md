@@ -17,3 +17,4 @@
 > setelah itu akan melakukan training data wajah
 ### run ***faceRecognition.py***
 > Untuk Mendekteksi Kecocokan Wajah yang sudah direkam ke dalam DataSet
+> Tekan tombol S untuk menutup Webcam

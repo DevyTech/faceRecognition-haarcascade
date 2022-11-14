@@ -18,6 +18,6 @@
 > setelah itu akan melakukan training data wajah
 > ![Screenshot (7)](https://user-images.githubusercontent.com/99667576/201587542-db2ba1c8-1f5d-4bef-9036-eac7be91a2d4.png)
 ### run ***faceRecognition.py***
-> Untuk Mendekteksi Kecocokan Wajah yang sudah direkam ke dalam DataSet
+> Untuk Mendekteksi Kecocokan Wajah yang sudah direkam ke dalam DataSet.
 > Tekan tombol S untuk menutup Webcam
 > ![Screenshot (8)](https://user-images.githubusercontent.com/99667576/201587571-76ab77d5-9765-4208-9f69-b094d2c1993d.png)
